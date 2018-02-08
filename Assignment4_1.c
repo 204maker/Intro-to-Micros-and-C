@@ -1,3 +1,6 @@
+//This is the code I used to verify the code without using the hardware tool.
+//Any online C compiler can be used to run this code.
+
 #include <stdio.h>
 
 int main(void)
@@ -7,9 +10,9 @@ int main(void)
 	char mychar;
 	char mystring[15]="dogs or cats?"; 
 	int mynums[5] = {11,22,33,44,55};
-	char *p_mystring; 					  //declare a pointer to char data
+	char *p_mystring; 			  //declare a pointer to char data
 	int *p_mynums = mynums;			  //declare int pointer and assign the address of mynums array
-	p_mystring = mystring;				//assign the pointer the adress of of the start of the mystring array
+	p_mystring = mystring;			  //assign the pointer the adress of of the start of the mystring array
 	
 	//assignments and other stuff
 	mynums[2] = 77;
